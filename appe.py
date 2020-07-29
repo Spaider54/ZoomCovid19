@@ -30,7 +30,7 @@ root.resizable(False, False)
 root.title("ZoomCOVID19")
 lbfgcolor = "#ff793f"
 lbbgcolor = "#2c2c54"
-spcolor = "#341f97"
+spcolor = "#dfe6e9"
 n = StringVar()
 
 f = ("Fira Code", 10, 'bold')
@@ -83,7 +83,7 @@ lbdeaths = Label(root, font=f, text="Deaths Case :", bg=lbbgcolor, fg=lbfgcolor)
 deathsCase = Text(root, font=f, width=20, height=1, bg=lbbgcolor, fg=lbfgcolor)
 deathsCase.grid(row=8, column=1, sticky=W, padx=20, pady=10)
 
-Lastupdate = Label(root, font=f, text="Last Update at :", bg=lbbgcolor, fg=lbfgcolor).grid(
+Lastupdate = Label(root, font=f, text="Last Update :", bg=lbbgcolor, fg=lbfgcolor).grid(
     row=9, column=0, sticky=W, padx=20, pady=10)
 
 lastupdate = Text(root, font=f, width=20, height=1, bg=lbbgcolor, fg=lbfgcolor)
