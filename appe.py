@@ -30,15 +30,16 @@ root.resizable(False, False)
 root.title("ZoomCOVID19")
 lbfgcolor = "#ff793f"
 lbbgcolor = "#2c2c54"
+spcolor = "#341f97"
 n = StringVar()
 
 f = ("Fira Code", 10, 'bold')
-appetitle = Label(root, text="ZoomCovid19", bg="#218c74", font=("Fira Code", 20, 'bold'), fg=lbfgcolor, width=48,
+appetitle = Label(root, text="ZoomCovid19", bg="#576574", font=("Fira Code", 20, 'bold'), fg=spcolor, width=48,
                   height=2).grid(row=0, column=0, columnspan=7, sticky=EW)
 
-inCOuntry = Label(root, text="In Country", font=("Fira Code", 9, 'bold'), fg=lbfgcolor, bg="#27ae60", width=48,
+inCOuntry = Label(root, text="In Country", font=("Fira Code", 9, 'bold'), fg=spcolor, bg="#576574", width=48,
                   height=2).grid(row=1, column=0, columnspan=2, sticky=EW)
-inWorld = Label(root, text="In World", font=("Fira Code", 9, 'bold'), fg=lbfgcolor, bg="#27ae60", width=48,
+inWorld = Label(root, text="In World", font=("Fira Code", 9, 'bold'), fg=spcolor, bg="#576574", width=48,
                 height=2).grid(row=1, column=2, columnspan=7, sticky=EW)
 # Foor Country
 lbcontry = Label(root, text="Country :", bg=lbbgcolor, fg=lbfgcolor, font=f).grid(
@@ -123,7 +124,7 @@ total_recovered.insert(END, covid.get_total_recovered())
 total_recovered.grid(row=7, column=4, sticky=W, padx=20, pady=10)
 
 
-lb_by_Spaider54 = Label(root, text="Devloped By Spaider54", font=("Fira Code", 9, 'bold'), fg=lbfgcolor, bg="#27ae60", width=48,
+lb_by_Spaider54 = Label(root, text="Devloped By Spaider54", font=("Fira Code", 9, 'bold'), fg=spcolor, bg="#576574", width=48,
                         height=2).grid(row=14, column=0, columnspan=7, sticky=EW)
 # Defining Fun
 
